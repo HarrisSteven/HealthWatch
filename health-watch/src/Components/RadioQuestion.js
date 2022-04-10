@@ -27,8 +27,8 @@ const RadioQuestion = (props) => {
           value={value}
           onChange={handleChange}
         >
-          {choices.map((choice) => (
-            <FormControlLabel key={choice} value={choice} control={<Radio />} label={choice} />
+          {choices.map((choice, index) => (
+            <FormControlLabel key={index} value={index} control={<Radio />} label={choice} />
           ))}
         </RadioGroup>
       </FormControl>
