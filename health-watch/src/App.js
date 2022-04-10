@@ -41,7 +41,7 @@ const App = () => {
       return;
     }
     const params = new URLSearchParams(createParams())
-    axios.get('https://ucsdhealthwatch.herokuapp.com/flask/ml', { params }).then(response => {
+    axios.get('http://localhost:5000/flask/ml', { params }).then(response => {
       console.log("SUCCESS", response)
       setResponse(response)
     }).catch(error => {

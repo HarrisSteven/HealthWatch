@@ -16,7 +16,7 @@ const Questions = (props) => {
     {"question": "Race", "type": "radio", "choices": ["American Indian/Alaskan Native","Asian","Black","Hispanic","White","Other"]},
     {"question": "Do you engage in regular physical exercise?", "type": "radio", "choices": ["No", "Yes"]},
     {"question": "Do you have serious difficulty walking or climbing stairs?", "type": "radio", "choices": ["No", "Yes"]},
-    {"question": "Have you smoked at least 100 cigarettes in your entire life??", "type": "radio", "choices": ["No", "Yes"]},
+    {"question": "Have you smoked at least 100 cigarettes in your entire life?", "type": "radio", "choices": ["No", "Yes"]},
     {"question": "Are you a heavy drinker? (more than 14 alcoholic drinks per week)", "type": "radio", "choices": ["No", "Yes"]},
     {"question": "Have you had a stroke?", "type": "radio", "choices": ["No", "Yes"]},
     {"question": "Are you diabetic?", "type": "radio", "choices": ["No", "Yes"]},
